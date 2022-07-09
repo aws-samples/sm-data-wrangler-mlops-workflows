@@ -1,17 +1,38 @@
-## My Project
+# Integrate SageMaker Data Wrangler into your MLOps workflows
 
-TODO: Fill this README out!
+[![Latest Version](https://img.shields.io/github/tag/aws-samples/sm-data-wrangler-mlops-workflows)](https://github.com/aws-samples/amazon-eks-arch-apache-solr/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/aws-samples/sm-data-wrangler-mlops-workflows/blob/main/LICENSE)
 
-Be sure to:
 
-* Change the title in this README
-* Edit your repository description on GitHub
+<div align="center">
+    <p align="center">
+        <img src="./images/dw-arch.jpg" alt="dw"/>
+    </p>
+</div>
 
-## Security
+## Get Started
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+1. Setup an [Amazon SageMaker Studio domain](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio-onboard.html).
+2. Log-on to Amazon SageMaker Studio. Open a terminal from _File_ menu > _New_ > _Terminal_
+   
+   <div align="center">
+    <p align="center">
+    <img src="./images/sm-studio-terminal.png" alt="sf"/>
+    </p>
+    </div>
 
-## License
+3. Clone this repository
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+```sh
+git clone https://github.com/aws-samples/sm-data-wrangler-mlops-workflows.git data-wrangler-pipelines
+```
 
+4. Open the [00_setup_data_wrangler.ipynb](./00_setup_data_wrangler.ipynb) file and follow instructions in the notebook
+
+---
+
+## Setup end-to-end MLOps Pipelines
+
+- [Setup Amazon SageMaker Data Wrangler with SageMaker Pipelines](./1-sagemaker-pipelines/README.md)
+- [Setup Amazon SageMaker Data Wrangler with AWS Step Functions](./2-step-functions-pipelines/README.md)
+- [Setup Amazon SageMaker Data Wrangler with Amazon Managed Workflow for Apache Airflow](./3-apache-airflow-pipelines/README.md)

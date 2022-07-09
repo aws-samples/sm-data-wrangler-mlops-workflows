@@ -1,0 +1,4 @@
+awswrangler
+pandas
+sagemaker==v2.59.5
+dag-factory==0.7.2
