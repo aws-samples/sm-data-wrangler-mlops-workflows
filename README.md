@@ -1,6 +1,6 @@
 # Integrate SageMaker Data Wrangler into your MLOps workflows
 
-[![Latest Version](https://img.shields.io/github/tag/aws-samples/sm-data-wrangler-mlops-workflows)](https://github.com/aws-samples/amazon-eks-arch-apache-solr/releases)
+[![Latest Version](https://img.shields.io/github/tag/aws-samples/sm-data-wrangler-mlops-workflows)](https://github.com/aws-samples/sm-data-wrangler-mlops-workflows/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/aws-samples/sm-data-wrangler-mlops-workflows/blob/main/LICENSE)
 
 
