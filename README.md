@@ -36,3 +36,11 @@ git clone https://github.com/aws-samples/sm-data-wrangler-mlops-workflows.git da
 - [Setup Amazon SageMaker Data Wrangler with SageMaker Pipelines](./1-sagemaker-pipelines/README.md)
 - [Setup Amazon SageMaker Data Wrangler with AWS Step Functions](./2-step-functions-pipelines/README.md)
 - [Setup Amazon SageMaker Data Wrangler with Amazon Managed Workflow for Apache Airflow](./3-apache-airflow-pipelines/README.md)
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
