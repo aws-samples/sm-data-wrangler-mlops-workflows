@@ -3,7 +3,7 @@
 ## Getting Started
 
 In this sample, we will use Step Functions to orchestrate the data wrangler based ML workflow using [AWS Step Functions Data Science SDK](https://docs.aws.amazon.com/step-functions/latest/dg/concepts-python-sdk.html)
-The AWS Step Functions Data Science SDK is an open-source library that allows data scientists to create workflows that can preprocess datasets, build, deploy and monitor machine learning models using AWS SageMaker and AWS Step Functions.
+The AWS Step Functions Data Science SDK is an open-source library that allows data scientists to create workflows that can preprocess datasets, build, deploy and monitor machine learning models using AWS SageMaker and AWS Step Functions. The AWS Step Functions Data Science SDK provides a Python API that can create and invoke Step Functions workflows. You can manage and execute these workflows directly in Python, as well as Jupyter notebooks.
 
 We will build a simple ML workflow leveraging SageMaker that has a preprocessing step using Data Wrangler, a training step and a save model step. We will chain these steps in order, assign dependencies and catch failures in the flow with Step Functions. The workflow will look as below
 
@@ -23,7 +23,7 @@ You can either use the export feature in SageMaker Data Wrangler to generate the
     b. Creates an Amazon S3 bucket and uploads your flow file and input files to the bucket
 2. Follow the instructions in the 01_setup_step_functions_pipeline notebook to kick off a Step Functions workflow. 
 3. Configure your Amazon SageMaker execution role with the required permissions as mentioned in the 01_setup_step_functions_pipeline notebook 
-4. The processing job will be run on a SageMaker managed Spark environment and this can take few minutes to complete
+4. The processing job will be run on a SageMaker managed Spark environment behind the scenes and this can take few minutes to complete
 5. Go to StepFunctions console and track the workflow visually thru StepFunctions console. You can also navigate to the linked CloudWatch logs to debug errors.
 6. Make sure you clean up all the resources at the end.
 
