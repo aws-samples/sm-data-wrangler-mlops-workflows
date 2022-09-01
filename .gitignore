@@ -1,2 +1,5 @@
 # Flow files
 .flow
+
+# Jupyter Checkpoints
+.ipynb_checkpoints
